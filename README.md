@@ -1,6 +1,6 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+[Скрипт, приводящий в читабельный вид список JSON алкогольных магазинов Москвы]
 
 # Quickstart
 
