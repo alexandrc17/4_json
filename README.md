@@ -9,6 +9,6 @@ from pprint_json import load_data
 
 text = load_data(r"*****\4_json\als.json") #путь до файла json, который необходимо отформатировать
 ```
-# Project Goals
+# Цели проекта
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+Код создан в учебных целях. В рамках учебного курса по веб-разработке - [DEVMAN.org](https://devman.org)
