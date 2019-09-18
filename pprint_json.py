@@ -1,11 +1,15 @@
 import json
-with open(r"C:\Users\860159\Documents\GitHub\4_json\als.json", "r", encoding='UTF-8') as filepath:
-    data = json.load(filepath)
 
 
-def pretty_print_json(data):
-    print(json.dumps(data, indent=4, sort_keys=True, ensure_ascii=False))
+def load_data(filepath):
+    with open(filepath, "r", encoding='UTF-8') as f:
+        data = json.load(f)
+        pretty = (json.dumps(data, indent=4, sort_keys=True, ensure_ascii=False))
+        return pretty
 
+    
+print(load_data(r"C:\Users\A&A\Desktop\Python\4_json\als.json"))
 
-if __name__ == '__main__':
-     pass
+# Честно, не понял - зачем 2 функции? Первая должна просто открывать файл? а вторая именно приводить его в читаемый вид?
+# Сейчас, на функцию подается путь до файла json, далее она его открывает и приводит в читаемый вид.
+# И что обычно пишется в "if __name__ == '__main__':"?
